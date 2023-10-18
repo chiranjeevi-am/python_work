@@ -13,7 +13,7 @@ pattern1 = 'FY(\d{4} (?:Q[1-4]|S[1-2])) [^$]* \$([\d\.]*)'
 
 pattern2 = 'FY(\d{4}) (Q[1-4]|S[1-2]) [^$]* \$([\d\.]*)'
 
-t = re.findall(pattern,text)
+t = re.findall(pattern, text)
 t1 =re.findall(pattern1, text)
 
 t2 = re.findall(pattern2,text)

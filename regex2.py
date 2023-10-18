@@ -1,5 +1,6 @@
 # 2. Extract Concentration Risk Types.
 # It will be a text that appears after "Concentration Risk:", In below example, your regex should extract these two strings
+
 text = '''
 Concentration of Risk: Credit Risk
 Financial instruments that potentially subject us to a concentration of credit risk consist of cash, cash equivalents, marketable securities,

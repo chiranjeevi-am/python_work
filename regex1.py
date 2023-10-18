@@ -12,6 +12,6 @@ import re
 
 pattern = 'https://twitter\.com/([a-zA-Z0-9_]+)'
 
-t = re.findall(pattern,text)
+t = re.findall(pattern, text)
 
 print(t)
